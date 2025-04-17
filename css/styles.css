@@ -301,23 +301,23 @@ footer {
 @media screen and (max-width: 1023px) {
   .wrapper {
     width: 100%;
-    /* margin: 0 auto; */
   }
 
   header {
     margin: 0;
-    margin-left: 5%;
+    margin-left: 4%;
     margin-top: 3%;
   }
 
   .banderogus-container {
-    padding: 40px;
-    width: 80%;
+    padding: 20px;
+    width: 35%;
+    height: 70%;
   }
 
   .banderogus-title {
-    font-size: 48px;
-    line-height: 56px;
+    font-size: 40px;
+    line-height: 48px;
   }
 
   .banderogus-descrt {
@@ -325,14 +325,15 @@ footer {
   }
 
   .main-page-row {
-    flex-direction: column;
-    justify-content: end;
+    flex-direction: row;
+    justify-content: space-around;
   }
 
   .banderogus-image {
-    align-self: center;
-    margin-top: 32px;
-    width: 80%; /* Зображення на 80% ширини */
+    /* align-self: center; */
+    /* margin-top: 32px; */
+    width: 45%;
+    /* overflow: hidden; */
   }
 
   .gus-title {
@@ -367,6 +368,7 @@ footer {
   .victory_bgd {
     width: 90%;
     padding: 56px 0;
+    margin-bottom: 56px;
   }
 
   .victory-title {
@@ -383,5 +385,135 @@ footer {
   }
   .modal-form-field {
     align-items: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .wrapper {
+    width: 80%;
+  }
+
+  header {
+    margin-left: 6%;
+  }
+
+  .logo-text {
+    margin-left: 8px;
+    margin-top: 2px;
+    font-size: 14px;
+  }
+
+  .main-page-row {
+    margin-top: 44px;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .banderogus-container {
+    padding: 20px;
+    height: 45%;
+    width: 85%;
+  }
+
+  .banderogus-title {
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  .banderogus-greeting {
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 12px;
+  }
+
+  .banderogus-start-text {
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 20px;
+  }
+
+  .banderogus-descrt {
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 12px;
+    margin-bottom: 16px;
+  }
+
+  .banderogus-launch {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+
+  .banderogus-image {
+    align-self: center;
+    margin-top: 14px;
+    width: 85%;
+  }
+
+  .gus-title {
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+  }
+
+  .gus-descr {
+    width: 100%;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .gus-facts-container {
+    flex-direction: column;
+  }
+
+  .gus-fact-item {
+    width: 100%;
+    margin-bottom: 24px;
+  }
+
+  .gus-fact-img {
+    width: 90%;
+  }
+
+  .gus-fact-descr {
+    width: 100%;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .victory_bgd {
+    width: 100%;
+    padding: 36px 16px;
+    margin-bottom: 36px;
+  }
+
+  .victory-title {
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+  }
+
+  .victory-descr {
+    width: 100%;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .modal-form-container {
+    padding: 24px;
+    width: 90%;
+  }
+
+  .modal-form-title {
+    font-size: 20px;
+  }
+
+  .modal-form-descr {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .modal-field-input {
+    width: 100%;
   }
 }
